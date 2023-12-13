@@ -1,0 +1,51 @@
+div>h1{
+    background-color: green;
+    color: lightsalmon;
+    text-align: center;
+    width: 53%;
+    margin-left: 20%;
+    font-size: 40px;
+    font-family: "Poppins",sans-serif;
+    border-radius: 10px;
+    font-weight: 550;
+   
+   }
+   div>p{
+     font-size: 25px;
+     font-weight: bold;
+   }
+   .container{
+     margin-left: 30px;
+     font-size: 20px;
+   }
+   button{
+     font-size: 25px;
+     background-color: brown;
+     color: white;
+     border: none;
+     border-radius: 5px;
+   }
+.food-items {
+ text-align: left;
+ margin-bottom: 10px;
+}
+.order-details{
+ display: none;
+ margin: 20px 10px;
+ text-align: left;
+}
+#foodImage{
+ width: 200px;
+ height: 200px;
+  
+}
+#orderStatus {
+ font-size: 24px;
+ font-weight: bold;
+ text-align:center;
+}
+.img-center{
+ display:block;
+ margin:auto;
+
+}

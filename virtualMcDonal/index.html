@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>McDonald's Virtual Food Ordering</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div>
+      <h1>McDonald's Virtual Food Ordering</h1>
+    </div>
+    <div><p>McDonald Menu</p></div>
+    <div class="food-items">
+      <input type="checkbox" id="burger" name="foodItem"  value="Burgers">
+      <label for="burger">Burgers</label>&nbsp;
+      <input type="checkbox" id="fries" name="foodItem" value="Fries">
+      <label for="fries">Fries</label>&nbsp;
+      <input type="checkbox" id="brownieandhotfudge" name="foodItem" value="Brownieandhotfudge">
+      <label for="brownieandhotfudge">Brownie & Hot Fudge</label>&nbsp;
+      <input type="checkbox" id="beverages" name="foodItem" value="Beverages">
+      <label for="beverages">Beverages</label>&nbsp;
+      <input type="checkbox" id="coffee" name="foodItem" value="Coffee">
+      <label for="coffee">Coffee</label>&nbsp;
+      <input type="checkbox" id="mcchiken" name="foodItem" value="Mcchiken">
+      <label for="mcchiken">Mcchiken</label><br><br>
+     
+    </div>
+    <button onclick="placeOrder()">Order Food</button>
+  </div>
+  <div class="order-details" id="orderDetails">
+    <p id="orderStatus"></p>
+    <div id="foodImages"></div>
+    </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
